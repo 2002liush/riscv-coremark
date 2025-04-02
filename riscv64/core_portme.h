@@ -28,14 +28,14 @@ Original Author: Shay Gal-on
 	Define to 1 if the platform supports floating point.
 */
 #ifndef HAS_FLOAT
-#define HAS_FLOAT 1
+#define HAS_FLOAT 0
 #endif
 /* Configuration: HAS_TIME_H
 	Define to 1 if platform has the time.h header file,
 	and implementation of functions thereof.
 */
 #ifndef HAS_TIME_H
-#define HAS_TIME_H 0
+#define HAS_TIME_H 1
 #endif
 /* Configuration: USE_CLOCK
 	Define to 1 if platform has the time.h header file,
